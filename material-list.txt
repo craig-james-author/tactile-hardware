@@ -1,0 +1,45 @@
+Hardware List
+
+PJRC Teensy 4.1 Development Board
+https://www.adafruit.com/product/4622
+
+PJRC Teensy Audio Board
+https://www.adafruit.com/product/4384
+
+Adafruit Gemma-M0 Miniature wearable electronic platform
+https://www.adafruit.com/product/3501
+$9.95 each
+Order one per sensor
+
+Adafruit Perma-Proto Half-sized Breadboard PCB - 3 Pack
+https://www.adafruit.com/product/571
+$12.50 for 3-pack
+
+Configurable Spring Terminal Blocks - 3 Pin
+https://www.adafruit.com/product/1074
+$4.95 for 5-pack (reconfigure to make 3 x 4-pin)
+
+Breakaway Male Headers
+https://www.adafruit.com/product/3009
+
+Female Headers
+https://www.adafruit.com/product/3008
+   This is a five-pack of 36-pin strips. You'll cut each one into
+   two 14-pin headers per Teensy, so this package is enough for five Teensys.
+
+Wire:
+Order 3 of these: red, black, and yellow:
+https://www.adafruit.com/product/3164
+   (These are stranded wires, so you'll have to tin the ends with solder
+   to use them with the Spring Terminal Blocks, above.)
+
+Power supply:
+USB cable or battery. If you use a battery, you'll need
+this connector too:
+https://www.adafruit.com/product/261
+
+Might be useful: Jumper wire with alligator clip to clip
+on to sensors. You'd clip off the jumper plug and solder it
+to the Gemma-M0 board.
+https://www.adafruit.com/product/3255
+

@@ -1,0 +1,45 @@
+A new Arduino version 2.0.0 was just released. This one incorporates the
+Teensy system, so a separate Teensyduino app is no longer needed.
+
+Remove all existing Arduino installation files:
+  - Remove Arduino and Teensyduino from the /Applications folder
+  - From your home directory, remove the "Libraries/Arduino15" folder
+  - In the Documents/Teensy/libraries directory, remove everything
+    except the "Tactile" directory (e.g. the SD, SdFat, and so forth).
+  
+Install Arduino 2.0:
+  - Download from https://www.arduino.cc/en/software
+  - Double-click the downloaded .dmg file
+  - Drag the Arduino icon into the Applications folder icon
+
+Run the new Arduino 2.0 program.
+  - It will ask for several permissions (keyboard, access to
+    your Documents folder, and incoming internet connections.
+    Allow these. It will take you to "System Preferences" for
+    some of this. When done, it advises that you need to restart
+    Arduino for the changes to take effect; don't restart yet.
+
+Select the sketchbook location:
+  - Open "Arduino IDE-->Preferences"
+  - Click "Browse" next to the "Sketchbook location" box, and select
+    your "Documents/Teensy" directory.
+
+Quit Arduino and restart it.
+  - It will advise you that some libraries can be updated. Click "Update
+    All". Wait for it to finish.
+
+Add the Teensy board to Arduino's list of supported hardware
+  - Open "Arduino IDE-->Preferences"
+  - At the very bottom, in the "Additional Board Manager URLs", enter this:
+      https://www.pjrc.com/teensy/package_teensy_index.json
+  - Click "OK" to close the Preferences, then wait ... it will take several
+    minutes to import all of the Teensy features. You may see some errors
+    at the end due to duplicate Adafruit libraries; you can ignore these.
+
+Select the Teensy 4.1 board:
+  - Plug the Teensy 4.1 into the USB.
+  - At the top of the Arduino window, click the "Boards" menu. It may take
+    a couple seconds to find the Teensy 4.1. When it does, click that.
+
+
+    
