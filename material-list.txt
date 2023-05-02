@@ -38,8 +38,8 @@ USB cable or battery. If you use a battery, you'll need
 this connector too:
 https://www.adafruit.com/product/261
 
-Might be useful: Jumper wire with alligator clip to clip
-on to sensors. You'd clip off the jumper plug and solder it
+Might be useful: Jumper wire with alligator clip, use to clip
+onto your sensors. You'd clip off the jumper plug and solder it
 to the Gemma-M0 board.
 https://www.adafruit.com/product/3255
 

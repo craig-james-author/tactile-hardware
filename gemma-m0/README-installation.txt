@@ -18,22 +18,29 @@
    (in Finder, select File-->Go-->Computer, and look for GEMMABOOT). Open
    the GEMMABOOT drive.
 
-5. Drag the .uf2 file (e.g. adafruit-circuitpython-gemma_m0-en_US-7.3.3.uf2,
-   but you may have downloaded a later version) into the GEMMABOOT folder.
-   The Gemma-M0 will immediately install the new version and reboot.
+5. Find the .uf2 file in the same directory where you found these
+   instructions, for example: 
+
+     Documents/Arduino/hardware/gemma-m0/adafruit-circuitpython-gemma_m0-en_US-7.3.3.uf2
+
+   (You may have downloaded a later version). Drag that file into the
+   GEMMABOOT folder. The Gemma-M0 will immediately install the new version
+   and reboot.
 
 6. The GEMMABOOT disk will disappear, and the CIRCUITPY disk icon
    should reappear on your desktop. (You may get another "Disk Not Ejected
    Properly" error -- ignore it.)
 
-7. Drag the file code.py in this directory into the CIRCUITPY
-   directory. The Gemma-M0's LED should blink a few times, then go off.
+7. Drag the file code.py in this directory into the CIRCUITPY directory. If
+   it asks about a duplicate filename, select "Replace" to overwrite the
+   existing code.py file.  The Gemma-M0's LED should blink a few times,
+   then go off.
 
 8. Eject the CIRCUITPY disk (drag it to the trash).
 
-To test the Gemma-M0, touch the electrode contact labelled A0 (just to the
+To test the Gemma-M0, touch the electrode contact labelled A1 (just to the
 left of the USB cable. The red light should flicker dimly when you're near
-the A0 electrode, and brightly if you touch it firmly.
+the A1 electrode, and brightly if you touch the A1 electrode firmly.
 
 All done -- you can unplug the Gemma-M0 from the USB. It is ready to use
 as a proximity/touch detector.
